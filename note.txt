@@ -1,0 +1,37 @@
+## Repository git hub
+https://github.com/AImFeffo/AI-Engineer.git
+
+## Schema
+math-ml-week1/
+├── .gitignore         ✅ qui
+├── README.md
+├── main.py
+├── math/
+    └──linear_algebra.py # Somma vettori, prodotto scalare, norma, ecc.
+    └── calculus.py # Derivate di funzioni semplici
+├── ml/
+    └──linear_regression.py # Implementazione da zero della regressione lineare
+|    
+└── .venv/             (verrà ignorata grazie a .gitignore)
+
+## Attivazione ambiente virtuale
+source .venv/bin/activate
+
+
+## Comandi Git Hub
+git init
+git remote add origin https://github.com/AImFeffo/math-ml-week1.git
+git add .
+git commit -m "init project"
+git push -u origin main
+
+## PATH dell'interprete
+/Users/macfeffoair/Desktop/Developer/AImFeffo/math_ml_week1/.venv/bin/python
+
+
+
+{
+    "python.defaultInterpreterPath": "./.venv/bin/python",
+    "python.terminal.activateEnvironment": true,
+    "python.terminal.activateEnvInCurrentTerminal": true
+} 

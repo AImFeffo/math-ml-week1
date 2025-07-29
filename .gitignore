@@ -1,0 +1,30 @@
+# Ambiente virtuale
+.venv/
+
+# File Python compilati
+__pycache__/
+*.py[cod]
+*$py.class
+
+# File temporanei / backup
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+
+# Config specifici di editor/IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# File di output
+*.out
+*.pdf
+*.png
+*.jpg
+*.csv
+*.ipynb_checkpoints/
+
+# Config Jupyter (se usato in futuro)
+.ipynb_checkpoints/ 
