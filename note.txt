@@ -20,18 +20,17 @@ source .venv/bin/activate
 
 ## Comandi Git Hub
 git init
-git remote add origin https://github.com/AImFeffo/math-ml-week1.git
+git remote add origin https://github.com/AImFeffo/"nome_repository".git
 git add .
 git commit -m "init project"
 git push -u origin main
 
+---> quando si fanno delle modifiche vanno fatti i seguenti comandi 
+    git add .           (aggiunge le modifiche all'area dis tagin, in attesa del push)
+    git commit -m "Messaggio descrittivo"           (crea un commit con un messaggio descrittivo)
+    git push origin main            (invia i cambiamenti su github, dove "main" è il branch principale)
+
+
 ## PATH dell'interprete
 /Users/macfeffoair/Desktop/Developer/AImFeffo/math_ml_week1/.venv/bin/python
 
-
-
-{
-    "python.defaultInterpreterPath": "./.venv/bin/python",
-    "python.terminal.activateEnvironment": true,
-    "python.terminal.activateEnvInCurrentTerminal": true
-} 
